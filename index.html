@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Assessment</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <table>
+        <caption>Table</caption>
+
+        <thead>
+            <tr>
+                <th>Accounting</th>
+                <th>Security</th>
+                <th>Human Resources</th>
+            </tr>
+        </thead>
+    </table>
+
+    <div>
+        <label for="user-country">What country are you from?</label>
+        <select name="user-country" id="">user-country
+            <option value="afghanistan">Afghanistan</option>
+            <option value="albania">Albania</option>
+            <option value="algeria">Algeria</option>
+            <option value="andorra">Andorra</option>
+            <option value="angola">Angola</option>
+            <option value="argentina">Argentina</option>
+            <option value="armenia">Armenia</option>
+            <option value="australia">Australia</option>
+            <option value="austria">Austria</option>
+            <!-- Other countires can be added as desired -->
+        </select>
+    </div>
+
+    <div>
+        <label for="profession">What is your profession?:</label>
+        <input list="professions" id="profession" name="profession" placeholder="Profession">
+        
+        <datalist id="professions">
+          <option value="UX Designer">
+          <option value="Front-End Developer">
+          <option value="Back-End Engineer ">
+          <option value="Full-Stack Developer">
+        </datalist>
+    </div>
+
+    <div>
+        <form>
+            <div>
+                <label for="user-email">Email address</label>
+                <input type="email" placeholder="Enter email address" id="user-email" name="user-email">
+            </div>
+
+            <div>
+                <label for="user-password">Password</label>
+                <input type="password" placeholder="Enter password" id="user-password" name="user-password">
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <figure>
+            <img src="./Images/User country.png" alt="This is an alt text that describes the image" title="This displays a tooltip ">
+            <figcaption>This is a caption for the image</figcaption>
+        </figure>
+    </div>
+
+    <div class="image-wrapper">
+        <img class="image" src="./Images/neom-I5j46lqAo-o-unsplash.jpg" alt="Aesthetic under water life with a diver" title="image caption title">
+    </div>
+    
+    <div class="container">
+        <h1>Top of the container</h1>
+        <div class="sub-container">
+            <a href="#">Click Here</a>
+            <div class="box-container">
+                <p>Paragraph <span>is a nice</span> Element</p>
+                <div class="placed-container">
+                    <div class="truth-container">
+                        <p>Place the date of the event here</p>
+                    </div>
+                </div>
+
+                <div class="another-sub-container">
+                    <form action="#">
+                        <div class="input-group">
+                            <label for="destination">Destination City</label>
+                            <input type="text" name="destination" id="destination">
+                        </div>
+
+                        <div class="submit-container">
+                            <button type="submit">Search Your Choice</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="final-container">
+                <div class="stay-container"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
